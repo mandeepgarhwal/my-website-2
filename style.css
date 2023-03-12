@@ -3,5 +3,13 @@ h3 {
     color:red;
 }
 .qualification{
-    background-color:  brown;
+    background-color:  gray;
+}
+#myform{
+    background-color: gray;
+}
+.button{
+    padding : 10px;
+    background-color: green;
+
 }
