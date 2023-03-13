@@ -22,4 +22,6 @@ table, th{
     border: 2px solid;
     border-color:red;
     border-collapse: collapse;
+    padding: 5px;
+    margin: 10px;
 }
