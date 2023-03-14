@@ -70,6 +70,9 @@ table, th{
     background-color: violet;
 
 }
+#articles{
+    background-color: rgb(174, 116, 30);
+}
 .eacharticle{
     height: 150px;
     width: 100%;
