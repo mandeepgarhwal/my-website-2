@@ -40,6 +40,8 @@ table, th{
 }
 #section1{
     height: 300px;
+    border: 2 px;
+    border-color: blueviolet;
 }
 .circles{
     background-color: aquamarine;
