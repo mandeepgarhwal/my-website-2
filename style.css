@@ -60,3 +60,24 @@ table, th{
     padding: 50px;
     
 }
+.contentarticle{
+    height: 450px;
+    width: 50%;
+    display: inline-block;
+}
+#maincontent{
+    background-color: violet;
+}
+.eacharticle{
+    height: 150px;
+    width: 100%;
+}
+#article1{
+    background-color: brown;
+}
+#article2{
+    background-color: yellow;
+}
+#article3{
+    background-color: green;
+}
