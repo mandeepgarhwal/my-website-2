@@ -41,7 +41,7 @@ table, th{
 #section1{
     height: 300px;
 }
-#circles{
+.circles{
     background-color: aquamarine;
     height: 150px;
     width: 150px;
