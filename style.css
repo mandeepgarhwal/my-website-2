@@ -45,8 +45,8 @@ table, th{
     margin-left: 200px;
     margin-top: 100px;
 }
-#section1:second-child{
-    margin-right: 50px;
+.circlecon{
+    margin: 0px 50px;
 }
 .circles{
     background-color: aquamarine;
