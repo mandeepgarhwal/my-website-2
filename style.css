@@ -35,6 +35,8 @@ table, th{
 #banner{
     height: 100vh;
     background-color: blue;
+    border: 2 px;
+    border-color: bluef2;
 }
 #section1{
     height: 300px;
