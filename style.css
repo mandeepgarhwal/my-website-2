@@ -43,6 +43,8 @@ table, th{
     background-color: black;
     border: 2 px;
     border-color: blueviolet;
+    margin: 50px;
+    
 }
 .circles{
     background-color: aquamarine;
