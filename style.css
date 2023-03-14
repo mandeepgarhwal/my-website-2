@@ -43,6 +43,7 @@ table, th{
     border: 2 px;
     border-color: blueviolet;
     margin: 100px;
+    align-content: center;
 
 }
 .circles{
