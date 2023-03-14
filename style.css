@@ -27,4 +27,20 @@ table, th{
 }
 #header{
     background-color: red;
+    height: 50px;
+}
+#banner{
+    height: 100vh;
+    background-color: blue;
+}
+#section1{
+    height: 300px;
+}
+#circles{
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+    border: 2px;
+    border-radius:50%;
+    margin: 30 px;
 }
