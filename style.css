@@ -63,10 +63,11 @@ table, th{
 .contentarticle{
     height: 450px;
     width: 50%;
-    display: inline-block;
+    
 }
 #maincontent{
     background-color: violet;
+    display: inline-block;
 }
 .eacharticle{
     height: 150px;
