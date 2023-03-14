@@ -42,9 +42,7 @@ table, th{
     height: 300px;
     border: 2 px;
     border-color: blueviolet;
-    margin: 100px;
-    align-content: center;
-
+    margin-left: 200px;
 }
 .circles{
     background-color: aquamarine;
