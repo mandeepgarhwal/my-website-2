@@ -40,6 +40,7 @@ table, th{
 }
 #section1{
     height: 300px;
+    background-color: black;
     border: 2 px;
     border-color: blueviolet;
 }
