@@ -44,4 +44,5 @@ table, th{
     border-radius:50%;
     margin: 100 px;
     display: inline-block;
+    padding: 50px;
 }
