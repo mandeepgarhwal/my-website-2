@@ -68,14 +68,14 @@ table, th{
 } */
 #maincontent{
     height: 450px;
-    width: 50%;
+    width: 40%;
     display: inline-block;
     background-color: violet;
 
 }
 #articles{
     height: 450px;
-    width: 50%;
+    width: 40%;
     display: inline-block;
     background-color: rgb(174, 116, 30);
 }
