@@ -60,8 +60,11 @@ table, th{
     padding: 50px;
     
 }
-.contentarticle{
+#section2{
     height: 450px;
+}
+.contentarticle{
+    
     display: inline-block;
 
 }
