@@ -83,7 +83,7 @@ table, th{
 }
 .eacharticle{
     height: 150px;
-    /* width: 100%; */
+    width: 100%;
 }
 #article1{
     background-color: brown;
