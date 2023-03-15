@@ -72,7 +72,6 @@ table, th{
     height: 460px;
     width: 50%;
     background-color: violet;
-    margin-top: 15px;
     
 
 }
@@ -80,6 +79,7 @@ table, th{
     height: 450px;
     width: 49%;
     /* background-color: rgb(174, 116, 30); */
+    
     
 }
 .eacharticle{
