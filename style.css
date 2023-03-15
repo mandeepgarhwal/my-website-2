@@ -38,6 +38,8 @@ table, th{
     border: 2 px;
     border-color: bluef2; */
     background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-shading-background-abstract-colorful-background-colorful-art-picture-image_938007.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #section1{
     height: 300px;
