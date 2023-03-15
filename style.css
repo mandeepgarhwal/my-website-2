@@ -60,17 +60,23 @@ table, th{
     padding: 50px;
     
 }
-.contentarticle{
+/* .contentarticle{
     height: 450px;
     width: 50%;
     display: inline-block;
     
-}
+} */
 #maincontent{
+    height: 450px;
+    width: 50%;
+    display: inline-block;
     background-color: violet;
 
 }
 #articles{
+    height: 450px;
+    width: 50%;
+    display: inline-block;
     background-color: rgb(174, 116, 30);
 }
 .eacharticle{
