@@ -61,9 +61,9 @@ table, th{
     
 }
 .contentarticle{
-    /* height: 450px; */
+    height: 450px;
     display: inline-block;
-    
+
 }
 #maincontent{
     height: 450px;
