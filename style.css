@@ -121,3 +121,7 @@ table, th{
     padding: 50px;
     
 }
+#footer{
+    background-color: pink;
+    height: 100px;
+}
