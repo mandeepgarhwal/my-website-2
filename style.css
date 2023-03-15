@@ -84,6 +84,7 @@ table, th{
 .eacharticle{
     height: 150px;
     width: 100%;
+    margin-left: 5px;
 }
 #article1{
     background-color: brown;
