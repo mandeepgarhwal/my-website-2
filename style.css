@@ -66,13 +66,13 @@ table, th{
     
 }
 #maincontent{
-    height: 450px;
+    height: 100%;
     width: 30%;
     background-color: violet;
 
 }
 #articles{
-    height: 450px;
+    height: 100%;
     width: 30%;
     background-color: rgb(174, 116, 30);
 }
