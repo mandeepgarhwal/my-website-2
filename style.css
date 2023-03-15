@@ -78,7 +78,7 @@ table, th{
 #articles{
     height: 450px;
     width: 49%;
-    background-color: rgb(174, 116, 30);
+    /* background-color: rgb(174, 116, 30); */
     
 }
 .eacharticle{
