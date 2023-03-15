@@ -99,3 +99,25 @@ table, th{
     background-color: green;
     margin-top: 5px;
 }
+#section2{
+    height: 300px;
+    border: 2 px;
+    border-color: blueviolet;
+    margin-left: 90px;
+    margin-top: 100px;
+}
+.squarecon{
+    margin: 0px 50px;
+    display: inline-block;
+}
+.squares{
+    background-color: aquamarine;
+    height: 150px;
+    width: 150px;
+    border: 2px;
+    
+    
+
+    padding: 50px;
+    
+}
