@@ -31,6 +31,7 @@ table, th{
 #header{
     background-color: red;
     height: 100px;
+    vertical-align: middle;
 }
 #banner{
     height: 100vh;
