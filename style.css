@@ -138,12 +138,13 @@ h1{
 }
 header h1{
     text-align: end;
+    vertical-align: middle;
 }
 header h1 ul{
     display: flex;
     
     
-    vertical-align: middle;
+    
     padding-right: 30px;
     list-style: none;
     
