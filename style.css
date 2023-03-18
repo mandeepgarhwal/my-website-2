@@ -141,7 +141,9 @@ h1{
     display: flex;
     text-align: right;
     vertical-align: middle;
-    margin-top: 40px;
+    padding-top: 20px;
+    padding-left: 500px;
+    
 }
 header h1 ul{
     display: flex;          
