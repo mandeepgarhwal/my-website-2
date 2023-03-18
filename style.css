@@ -136,7 +136,7 @@ h1{
     text-transform: uppercase;
     font-size: 40px;
 }
-header h1{
+header #navigation{
     display: flex;
     text-align: right;
     vertical-align: middle;
