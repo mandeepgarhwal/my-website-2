@@ -138,11 +138,17 @@ h1{
 }
 header h1 ul{
     display: flex;
-    text-decoration: none;
+    
     text-align: end;
     vertical-align: middle;
     padding-right: 30px;
+    list-style: none;
+    
 }
 header h1 ul li{
     padding: 10px;
+    
+}
+header h1 ul li a{
+    text-decoration: none;
 }
