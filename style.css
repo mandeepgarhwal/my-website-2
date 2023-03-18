@@ -136,10 +136,13 @@ h1{
     text-transform: uppercase;
     font-size: 40px;
 }
+header h1{
+    text-align: end;
+}
 header h1 ul{
     display: flex;
     
-    text-align: end;
+    
     vertical-align: middle;
     padding-right: 30px;
     list-style: none;
