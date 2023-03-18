@@ -137,14 +137,11 @@ h1{
     font-size: 40px;
 }
 header h1{
-    text-align: end;
+    text-align: right;
     vertical-align: middle;
 }
 header h1 ul{
-    display: flex;
-    
-    
-    
+    display: flex;          
     padding-right: 30px;
     list-style: none;
     
