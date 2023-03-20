@@ -157,7 +157,7 @@ h1{
     display: flex;
     text-align: right;
     vertical-align: middle;
-    padding-top: 18px;
+    /* padding-top: 18px; */
     padding-left: 670px;
     height: 100%;
     
