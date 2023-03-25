@@ -1,11 +1,22 @@
 *{
     padding: 0px; margin: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 h3 {
     background-color: grey;
     color:red;
     font-size: xx-large;
     font: bold;
+}
+h1{
+    text-align: center;
+    /* vertical-align: middle; */
+    text-transform: uppercase;
+    font-size: 40px;
+    /* height: 100%; */
 }
 .qualification{
     background-color:  gray;
@@ -39,39 +50,101 @@ table, th{
     /* background-color: blue;
     border: 2 px;
     border-color: bluef2; */
-    background-image: url("https://png.pngtree.com/background/20210709/original/pngtree-shading-background-abstract-colorful-background-colorful-art-picture-image_938007.jpg");
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 12vh;
 }
+#banner h1{
+    font-size: 60px;
+    text-align: left;
+    color: antiquewhite;
+    padding-top: 10px;
+}
 #section1{
-    height: 100vh;
+    height: 50vh;
     border: 2 px;
     border-color: blueviolet;
-    margin-left: 220px;
+    
     padding-top: 12vh;
 }
-.circlecon{
+/* .circlecon{
     margin: 0px 50px;
     display: inline-block;
     padding: 50px;
+} */
+#newdiv{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .circles{
     background-color: aquamarine;
     height: 42vh;
     width: 350px;
-    border: 2px;
+    /* border: 2px;
+    border-color: brown; */
     border-radius:35%;
     /* margin: 50px; */
+    margin: 0px 20px;
   
 }
+#anuj{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 35%;
+
+}
+.css{
+    width: 100%;
+    height: 53%;
+    object-fit: contain;
+    margin: 0px;
+    
+
+}
+.techtext{
+    font-size: 22.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+    text-align: justify;
+
+}
+button{
+    width: 104%;
+    height: 10%;
+    background-color: brown;
+    border-width: 0px;
+    margin-left: -5px;
+    border-radius: 15%;
+    vertical-align: bottom;
+}
+button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+/* #anuj{
+    background-image: url("anuj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
 #section1 h1{
-    margin-right: 250px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-content: center;
+    /* margin-right: 250px; */
+    padding-bottom: 20px;
 }
 #section2{
     height: 100vh;
     padding-top: 12vh;
+}
+#section2 h1{
+    padding-bottom: 20px;
 }
 .contentarticle{
     
@@ -82,8 +155,18 @@ table, th{
 #maincontent{
     height: 690px;
     width: 50%;
-    background-color: violet;
+    background-color: gray;
 
+
+}
+#maincontent h1{
+    text-align: left;
+    padding-bottom: 20px;
+}
+#maincontent p{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 
 }
 #articles{
@@ -100,14 +183,20 @@ table, th{
    
 }
 #article1{
-    background-color: brown;
+    background-image: url("article 1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #article2{
-    background-color: yellow;
+    background-image: url("article 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 5px;
 }
 #article3{
-    background-color: green;
+    background-image: url("article 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-top: 5px;
 }
 #section3{
@@ -117,33 +206,42 @@ table, th{
     margin-left: 10px;
     padding-top: 12vh;
 }
+
 .squarecon{
     margin: 0px 50px;
     display: inline-block;
+    vertical-align: top;
 }
 .squares{
     background-color: aquamarine;
     height: 500px;
     width: 260px;
-    border: 2px;
-    
-    
-
-    padding: 5px;
-    
+    border: 0px;
+    padding: 5px 5px 0px 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #footer{
-    background-color: pink;
-    height: 100vh;
-    padding-top: 12vh;
+    height: 20vh;
+    padding-top: 2vh;
 }
-h1{
+#contactinfo{
+    background-color: palevioletred;
+    height: 15vh;
+}
+#contactinfo h3{
+    font-size: 18px;
+    color: antiquewhite;
     text-align: center;
-    /* vertical-align: middle; */
-    text-transform: uppercase;
-    font-size: 40px;
-    /* height: 100%; */
+    background-color: palevioletred;
 }
+#contactinfo p{
+    text-align: center;
+}
+
 /* #navigation :hover{
     display: flex;
     text-align: right;
