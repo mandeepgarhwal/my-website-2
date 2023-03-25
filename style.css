@@ -54,12 +54,14 @@ table, th{
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 12vh;
+    width: 100vw;
 }
 #banner h1{
     font-size: 60px;
     text-align: left;
     color: antiquewhite;
     padding-top: 10px;
+    width: 100vw;
 }
 #section1{
     height: 50vh;
