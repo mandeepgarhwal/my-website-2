@@ -54,6 +54,7 @@ table, th{
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 12vh;
+    width: auto;
 
     
 }
