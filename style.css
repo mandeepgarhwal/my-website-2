@@ -76,27 +76,27 @@ table, th{
     display: inline-block;
     padding: 50px;
 } */
-#gridcontainer1{
+.gridcontainer1{
     display: grid;
    
     
     
 }
-#c1{
+.c1{
     grid-row: 1/2;
     grid-column: 1/2;
 }
-#c2{
+.c2{
     grid-row: 1/2;
     grid-column: 2/3;
     
 }
-#c3{
+.c3{
     grid-row: 1/2;
     grid-column: 3/4;
     
 }
-#c4{
+.c4{
     grid-row: 1/2;
     grid-column: 4;
     
@@ -131,10 +131,10 @@ table, th{
     
 
 }
-#newdiv{
+/* #newdiv{
     display: flex;
     justify-content: space-between;
-}
+} */
 .techtext{
     font-size: 22.5px;
     font-family: Arial, Helvetica, sans-serif;
