@@ -126,10 +126,10 @@ table, th{
     grid-row: 4/span 1;
     grid-column: 2/span 1;
 }
-@media  screen and (max-width: 800px){ 
+/* @media  screen and (max-width: 800px){ 
     #gridcontainer{ grid-template-rows: repeat(2, 1fr);}
     
-}
+} */
 .circles{
     background-color: aquamarine;
     height: 42vh;
