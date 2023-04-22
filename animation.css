@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#shadow{
+    height: 30px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    animation: shadow 2s linear 1s infinite ;
+    z-index: -1;
+}
+
+
+@keyframes shadow {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+#circle{
+    height: 50px;
+    width: 50px;
+    background-image: linear-gradient( to right, yellow 50%, green 50%);
+    border-radius: 50%;
+    margin-bottom: -15px;
+    animation: ball 2s linear 1s infinite;
+    ani
+}
+@keyframes ball {
+    0%{
+        transform: translateY (0px) rotate(0deg);
+
+    }
+    50%{
+        transform: translateY(-200px) rotate(180deg);
+
+    }
+    100%{
+        transform: translateY(0px) rotate(360deg);
+
+    }
+    
+}
+
+#part1{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+#part2{
+    display: flex;
+    justify-content: center;
+    vertical-align: top;
+    margin-top: 20px;
+
+}
+p{
+    font-size: 25px;
+    font-family: cursive;
+}
+.dots{
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    margin: 15px 10px;
+    
+}
+
+@keyframes wave {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+#firstdot{
+    animation: wave  1s linear 0.6667s infinite;
+}
+#seconddot{
+    animation: wave  1s linear 0.3333s infinite;
+}
+#thirddot{
+    animation: wave  1s linear infinite;
+}

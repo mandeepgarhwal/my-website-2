@@ -4,6 +4,11 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 h3 {
     background-color: grey;
@@ -17,6 +22,9 @@ h1{
     text-transform: uppercase;
     font-size: 40px;
     /* height: 100%; */
+}
+#aboutus{
+    width: 99vw;
 }
 .qualification{
     background-color:  gray;
@@ -44,6 +52,8 @@ table, th{
     height: 12vh;
     vertical-align: middle;
     position: fixed;
+    display: flex;
+    width: 99vw;
 }
 #banner{
     height: 100vh;
@@ -54,7 +64,7 @@ table, th{
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 12vh;
-    width: 1517px;
+    width: 99vw;
 
     
 }
@@ -78,10 +88,14 @@ table, th{
     padding: 50px;
 } */
 .gridcontainer1{
-    display: grid;
+    /* display: grid;
     grid-template-columns: auto;
-   
-    
+    */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    vertical-align: top;
+    width: 99vw;
     
 }
 .c0{
@@ -133,13 +147,13 @@ table, th{
 } */
 .circles{
     background-color: aquamarine;
-    height: 42vh;
-    width: 350px;
+    height: 40vh;
+    width: 22vw;
     /* border: 2px;
     border-color: brown; */
     border-radius:35%;
     /* margin: 50px; */
-    margin: 0px 16px;
+    margin: 0px 1vw;
 }
 
 #anuj{
@@ -202,7 +216,7 @@ button a{
 #section2 h1{
     padding-bottom: 20px;
 }
-.contentarticle{
+.contentarticle {
     
     display: inline-block;
     vertical-align: top;
@@ -210,9 +224,9 @@ button a{
 }
 #maincontent{
     height: 690px;
-    /* width: 50%; */
+    width: 50%;
     background-color: gray;
-    width: 756px;
+    /* width: 756px; */
 
 
 }
@@ -347,3 +361,30 @@ header h1 ul li a{
     text-decoration: none;
     padding: 26px 0px 25px 0px;
 }
+
+/* @media (max-width:768px) {
+    .c0{
+        grid-row: 1/2;
+        grid-column: 1/span 2;
+    }
+    .c1{
+        grid-row: 2;
+        grid-column: 1/2;
+    }
+    .c2{
+        grid-row: 2;
+        grid-column: 2;
+        
+    }
+    .c3{
+        grid-row: 3;
+        grid-column: 1/2;
+        
+    }
+    .c4{
+        grid-row: 3;
+        grid-column: 2;
+        
+    }
+}
+     */
