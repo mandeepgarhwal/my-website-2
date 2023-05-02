@@ -40,11 +40,49 @@
 // console.log(capital(s));
 
 // Question 4
-function capital(s){
-    var s1 = s.trim()
-    var s2 = s1.replace(/\s+/g, ' ');
-    return s2;
-}
-var s = " mandeep has    coding skills ";
+// function capital(s){
+//     var s1 = s.trim()
+//     var s2 = s1.replace(/\s+/g, ' ');
+//     return s2;
+// }
+// var s = " mandeep has    coding skills ";
 
-console.log(capital(s));
+// console.log(capital(s));
+
+// assignmkent 14 
+// Question 1
+//  function sumofarray(a){
+//     for (let i = 0; i < a.length; i++) {
+//         sum = sum + a[i];
+//     }
+//     return sum
+//  }
+// sum = 0;
+// s = [2,3,4,5,6,7,8,9,10]
+// console.log(sumofarray(s))
+
+// Question 2
+
+// function arrayn(a){
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i].length >= 3){
+//             newarray.push(a[i])
+//         }
+//     }
+//     return newarray
+//  }
+// var newarray = []
+// a = ["mandeep", "mandy", "to", "u", "three"]
+// console.log(arrayn(a))
+
+// Question 3
+function names(a){
+    for (let i = 0; i < a.length; i++) {
+        newarray.push(a[i].name)
+        
+    }
+    return newarray
+ }
+var newarray = []
+a = [{ "name" : "mandeep"}, { "name" : "sandeep"}, { "name" : "pardeep"}, { "name" : "pankaj"}]
+console.log(names(a))
