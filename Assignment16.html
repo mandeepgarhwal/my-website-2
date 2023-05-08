@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 16</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        th,
+        tr {
+            /* border: 2px solid;
+            border-color: red;
+            border-collapse: collapse; */
+            text-align: "center"
+        }
+
+        tr {
+            min-width: 200px;
+        }
+
+        td{
+            min-width: 70 px;
+        }
+    </style>
+</head>
+
+<body style='display: "flex"; align-items: center'>
+    <div style="text-align: center">
+        <input id="newname" type="text" width="100px" value="name">
+        <button id="new">Add Record</button>
+    </div>
+    <div style = 'display: flex; justify-content: center'>
+        <table id="mytable" >
+            <thead id="tablehead" style="width: 100%">
+                <tr>
+                    <th id="serialnumber"> Serial number</th>
+                    <th id="newentry">Name</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+
+            </tbody>
+
+        </table>
+    </div>
+</body>
+<script src="Assignment16.js"></script>
+
+</html>
